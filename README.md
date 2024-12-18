@@ -139,7 +139,7 @@ This project is licensed under the MIT License.
 
 ### Main Page
 
-![Main Page](static/images/weather.png.png)
+![Main Page](static/images/weather.png)
 
 ---
 
