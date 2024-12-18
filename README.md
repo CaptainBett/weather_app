@@ -139,7 +139,7 @@ This project is licensed under the MIT License.
 
 ### Main Page
 
-![Main Page](screenshot.png)
+![Main Page](static/captain's%20weather.png.png)
 
 ---
 
