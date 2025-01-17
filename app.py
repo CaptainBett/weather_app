@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from weather import get_requested_weather
 
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder='templates',static_folder='static')
 
 
 @app.route('/',methods=['GET', 'POST'])
@@ -21,5 +21,5 @@ def index():
     return render_template('index.html', weather=weather_data)
 
 if __name__ == '__main__':
-    app.run(port=8000, debug=True)
+    app.run(port=8000, debug=False)
  
